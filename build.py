@@ -128,6 +128,15 @@ def ics_calendar(events, name):
     return "\r\n".join(ics_fold(l) for l in lines) + "\r\n"
 
 
+def write_ics(path, text):
+    """Write only if something other than the DTSTAMP line changed, to avoid noisy commits."""
+    def strip(x):
+        return "\n".join(l for l in x.splitlines() if not l.startswith("DTSTAMP:"))
+    if path.exists() and strip(path.read_text(encoding="utf-8")) == strip(text):
+        return
+    path.write_bytes(text.encode("utf-8"))
+
+
 def talk_html(t, data):
     e = html.escape
     date, times = fmt_when(t)
@@ -160,14 +169,16 @@ def main():
 
     cal_dir = ROOT / "calendar"
     cal_dir.mkdir(exist_ok=True)
+    keep = {f"{t['id']}.ics" for t in data["talks"]} | {"all-talks.ics"}
     for old in cal_dir.glob("*.ics"):
-        old.unlink()
+        if old.name not in keep:
+            old.unlink()
     all_events = []
     for t in data["talks"]:
         ev = ics_event(t, data, stamp)
         all_events.append(ev)
-        (cal_dir / f"{t['id']}.ics").write_bytes(ics_calendar([ev], SERIES).encode("utf-8"))
-    (cal_dir / "all-talks.ics").write_bytes(ics_calendar(all_events, SERIES).encode("utf-8"))
+        write_ics(cal_dir / f"{t['id']}.ics", ics_calendar([ev], SERIES))
+    write_ics(cal_dir / "all-talks.ics", ics_calendar(all_events, SERIES))
 
     index = ROOT / "index.html"
     page = index.read_text(encoding="utf-8")

@@ -12,6 +12,7 @@ Intended URL: <https://wrightstephen.github.io/cs-futures-ai/>
 | `index.html`       | Single-page site (intro, upcoming/past talks, contact).                  |
 | `talks.json`       | Talk data (speaker, link, title, date, times). Edit this to add talks. |
 | `build.py`         | Regenerates the talk listings in `index.html` and `calendar/*.ics`.     |
+| `publish.sh`       | Rebuilds, commits, and pushes to GitHub (updates the live site).        |
 | `calendar/`        | Generated `.ics` files: one per talk, plus `all-talks.ics`.             |
 | `style.css`        | Stylesheet modeled on the UW Theme used by cs.wisc.edu (Red Hat fonts via Google Fonts). |
 | `content-notes.md` | Raw content instructions.                                               |
@@ -32,7 +33,23 @@ visitor's browser, once their end time has passed.
 The calendar descriptions include `site_url` from `talks.json`. Update it and rebuild if
 the site is hosted elsewhere.
 
-## Publishing on GitHub Pages
+## Updating the live site (after editing)
+
+In Terminal:
+
+```bash
+cd /Users/stephenwright/Dropbox/SJW-HOME/software/VS_Code/cs-futures-ai
+./publish.sh "short description of the change"
+```
+
+This rebuilds the talk listings and calendar files, commits, and pushes to GitHub.
+The live site updates within a minute or two. The manual equivalent is
+`python3 build.py`, `git add -A`, `git commit -m "..."`, and `git push`.
+
+GitHub sign-in is handled by the GitHub CLI (`gh auth login`, done once). If a push
+ever fails with "Authentication failed", run `gh auth login` again.
+
+## Publishing on GitHub Pages (one-time setup, already done)
 
 1. Create an empty public repo named `cs-futures-ai` at <https://github.com/new>
    (no README or license).
