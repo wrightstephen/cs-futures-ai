@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UW-Madison CS//CS Futures in the Age of AI//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CS Futures in the Age of AI
+BEGIN:VEVENT
+UID:2026-12-03-wright@cs-futures-ai.wisc.edu
+DTSTAMP:20261110T152359Z
+DTSTART:20261203T163000Z
+DTEND:20261203T173000Z
+SUMMARY:Steve Wright: AI and Optimization in 2026: Reflections on a Revolut
+ ion
+DESCRIPTION:CS Futures in the Age of AI seminar series\, hosted by the CS A
+ I Council.\nSpeaker: Steve Wright\nhttps://wrightstephen.github.io/cs-futu
+ res-ai/
+LOCATION:WARF Seminar Room\, 7th Floor\, Morgridge Hall\, UW–Madison
+URL:https://wrightstephen.github.io/cs-futures-ai/
+END:VEVENT
+END:VCALENDAR

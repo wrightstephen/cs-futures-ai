@@ -1,0 +1,37 @@
+{
+  "site_url": "https://wrightstephen.github.io/cs-futures-ai/",
+  "location": "WARF Seminar Room, 7th Floor, Morgridge Hall, UW–Madison",
+  "timezone": "America/Chicago",
+  "talks": [
+    {
+      "id": "2026-11-12-sankaralingam",
+      "speaker": "Karu Sankaralingam",
+      "speaker_url": "https://pages.cs.wisc.edu/~karu/wiki/",
+      "title": "How to Find Meaning in (Systems) Research When Machines Ideate?",
+      "date": "2026-11-12",
+      "start": "14:15",
+      "end": "15:30",
+      "abstract": ""
+    },
+    {
+      "id": "2026-11-20-mutlu",
+      "speaker": "Bilge Mutlu",
+      "speaker_url": "https://bilgemutlu.com/",
+      "title": "Doing your Best Research with AI",
+      "date": "2026-11-20",
+      "start": "15:00",
+      "end": "17:00",
+      "abstract": ""
+    },
+    {
+      "id": "2026-12-03-wright",
+      "speaker": "Steve Wright",
+      "speaker_url": "https://pages.cs.wisc.edu/~swright/",
+      "title": "AI and Optimization in 2026: Reflections on a Revolution",
+      "date": "2026-12-03",
+      "start": "10:30",
+      "end": "11:30",
+      "abstract": ""
+    }
+  ]
+}
