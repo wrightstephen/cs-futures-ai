@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UW-Madison CS//CS Futures in the Age of AI//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CS Futures in the Age of AI
+BEGIN:VEVENT
+UID:2026-12-07-papailiopoulos@cs-futures-ai.wisc.edu
+DTSTAMP:20261111T203133Z
+DTSTART:20261207T153000Z
+DTEND:20261207T170000Z
+SUMMARY:Dimitris Papailiopoulos: Title TBA
+DESCRIPTION:CS Futures in the Age of AI seminar series\, hosted by the CS A
+ I Council.\nSpeaker: Dimitris Papailiopoulos\nhttps://wrightstephen.github
+ .io/cs-futures-ai/
+LOCATION:WARF Seminar Room\, 7th Floor\, Morgridge Hall\, UW–Madison
+URL:https://wrightstephen.github.io/cs-futures-ai/
+END:VEVENT
+END:VCALENDAR
