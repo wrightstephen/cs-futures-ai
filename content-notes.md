@@ -11,7 +11,7 @@ Fri Nov 20, 3:00-5:00p
 Steve Wright: "AI and Optimization in 2026: Reflections on a
 Revolution."  WARF Seminar Room, Thu Dec 3, 10:30-11:30a
 
-Dimitris Papailiopoulos: TBA. WARF Seminar Room, Monday Dec 7, 9:30-11:00a
+Dimitris Papailiopoulos: "The Golden Age of Asking Questions." WARF Seminar Room, Monday Dec 7, 9:30-11:00a
 website: https://engineering.wisc.edu/directory/profile/dimitris-papailiopoulos/
 
 -
