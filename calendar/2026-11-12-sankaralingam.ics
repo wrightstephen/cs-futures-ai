@@ -6,14 +6,14 @@ METHOD:PUBLISH
 X-WR-CALNAME:CS Futures in the Age of AI
 BEGIN:VEVENT
 UID:2026-11-12-sankaralingam@cs-futures-ai.wisc.edu
-DTSTAMP:20261110T153112Z
+DTSTAMP:20261113T222401Z
 DTSTART:20261112T201500Z
 DTEND:20261112T213000Z
 SUMMARY:Karu Sankaralingam: How to Find Meaning in (Systems) Research When 
  Machines Ideate?
 DESCRIPTION:CS Futures in the Age of AI seminar series\, hosted by the CS A
- I Council.\nSpeaker: Karu Sankaralingam\nhttps://wrightstephen.github.io/c
- s-futures-ai/
+ I Council.\nSpeaker: Karu Sankaralingam\n\nhttps://wrightstephen.github.io
+ /cs-futures-ai/#2026-11-12-sankaralingam
 LOCATION:WARF Seminar Room\, 7th Floor\, Morgridge Hall\, UW–Madison
 URL:https://wrightstephen.github.io/cs-futures-ai/
 END:VEVENT

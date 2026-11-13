@@ -6,13 +6,29 @@ METHOD:PUBLISH
 X-WR-CALNAME:CS Futures in the Age of AI
 BEGIN:VEVENT
 UID:2026-11-20-mutlu@cs-futures-ai.wisc.edu
-DTSTAMP:20261110T153112Z
+DTSTAMP:20261113T222401Z
 DTSTART:20261120T210000Z
 DTEND:20261120T230000Z
-SUMMARY:Bilge Mutlu: Doing your Best Research with AI
+SUMMARY:Bilge Mutlu: What Should I Still Do Myself? Judgment\, labor\, and 
+ AI in research
 DESCRIPTION:CS Futures in the Age of AI seminar series\, hosted by the CS A
- I Council.\nSpeaker: Bilge Mutlu\nhttps://wrightstephen.github.io/cs-futur
- es-ai/
+ I Council.\nSpeaker: Bilge Mutlu\n\nAbstract: AI can now write code\, surv
+ ey a literature\, run an analysis\, and draft a paper. That raises a quest
+ ion for everyone who does research\, at every stage: what should I still d
+ o myself? For students\, the labor AI now does is how researchers used to 
+ build judgment\, the ability to tell whether a result is right\, whether i
+ t is interesting\, and what to do next. For faculty and staff\, the questi
+ on is how to supervise work we never did\, what to ask of the people we me
+ ntor\, and where our own lines are. This talk grew out of questions CS stu
+ dents raised after an earlier version. Where does judgment stop and implem
+ entation start? When is the work still yours\, and what should you disclos
+ e? How do you build judgment before you have it? Drawing on how other fiel
+ ds train judgment\, and on examples from student work and my own practice\
+ , I'll offer a working rule for what to keep for yourself\, a way to pract
+ ice alongside AI without losing the skill\, and the norms we might set tog
+ ether as a department. The first hour is the talk\; the second hour is ope
+ n discussion.\n\nhttps://wrightstephen.github.io/cs-futures-ai/#2026-11-20
+ -mutlu
 LOCATION:WARF Seminar Room\, 7th Floor\, Morgridge Hall\, UW–Madison
 URL:https://wrightstephen.github.io/cs-futures-ai/
 END:VEVENT

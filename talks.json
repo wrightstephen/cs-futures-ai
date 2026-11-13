@@ -17,11 +17,11 @@
       "id": "2026-11-20-mutlu",
       "speaker": "Bilge Mutlu",
       "speaker_url": "https://bilgemutlu.com/",
-      "title": "Doing your Best Research with AI",
+      "title": "What Should I Still Do Myself? Judgment, labor, and AI in research",
       "date": "2026-11-20",
       "start": "15:00",
       "end": "17:00",
-      "abstract": ""
+      "abstract": "AI can now write code, survey a literature, run an analysis, and draft a paper. That raises a question for everyone who does research, at every stage: what should I still do myself? For students, the labor AI now does is how researchers used to build judgment, the ability to tell whether a result is right, whether it is interesting, and what to do next. For faculty and staff, the question is how to supervise work we never did, what to ask of the people we mentor, and where our own lines are. This talk grew out of questions CS students raised after an earlier version. Where does judgment stop and implementation start? When is the work still yours, and what should you disclose? How do you build judgment before you have it? Drawing on how other fields train judgment, and on examples from student work and my own practice, I'll offer a working rule for what to keep for yourself, a way to practice alongside AI without losing the skill, and the norms we might set together as a department. The first hour is the talk; the second hour is open discussion."
     },
     {
       "id": "2026-12-03-wright",
@@ -31,7 +31,7 @@
       "date": "2026-12-03",
       "start": "10:30",
       "end": "11:30",
-      "abstract": ""
+      "abstract": "The past year has seen AI impact mathematical disciplines in profound, escalating, and revolutionary ways, giving rise to a new era of “proof abundance.” Optimization has featured prominently in this process, with new theoretical results emerging at a rapid pace. Other aspects of optimization research and practice, including software and applications, have also been impacted. In fact, AI has affected every aspect of our professional lives. This talk gives a high-level overview of these developments, with some examples drawn from my own limited experience, and some thoughts on how we, as a community, might deal with the challenges and opportunities posed by AI models."
     },
     {
       "id": "2026-12-07-papailiopoulos",

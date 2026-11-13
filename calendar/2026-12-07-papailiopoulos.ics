@@ -6,13 +6,13 @@ METHOD:PUBLISH
 X-WR-CALNAME:CS Futures in the Age of AI
 BEGIN:VEVENT
 UID:2026-12-07-papailiopoulos@cs-futures-ai.wisc.edu
-DTSTAMP:20261112T160938Z
+DTSTAMP:20261113T222401Z
 DTSTART:20261207T153000Z
 DTEND:20261207T170000Z
 SUMMARY:Dimitris Papailiopoulos: The Golden Age of Asking Questions
 DESCRIPTION:CS Futures in the Age of AI seminar series\, hosted by the CS A
- I Council.\nSpeaker: Dimitris Papailiopoulos\nhttps://wrightstephen.github
- .io/cs-futures-ai/
+ I Council.\nSpeaker: Dimitris Papailiopoulos\n\nhttps://wrightstephen.gith
+ ub.io/cs-futures-ai/#2026-12-07-papailiopoulos
 LOCATION:WARF Seminar Room\, 7th Floor\, Morgridge Hall\, UW–Madison
 URL:https://wrightstephen.github.io/cs-futures-ai/
 END:VEVENT

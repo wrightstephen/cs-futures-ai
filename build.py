@@ -48,7 +48,10 @@ def fmt_when(t):
 
 
 def description(t, site_url):
-    return f"{SERIES} seminar series, hosted by the CS AI Council.\nSpeaker: {t['speaker']}\n{site_url}"
+    text = f"{SERIES} seminar series, hosted by the CS AI Council.\nSpeaker: {t['speaker']}\n"
+    if t.get("abstract"):
+        text += f"\nAbstract: {t['abstract']}\n"
+    return text + f"\n{site_url}#{t['id']}"
 
 
 def utc_stamp(dt):
@@ -146,14 +149,14 @@ def talk_html(t, data):
     affil = f', <span class="affil">{e(t["affiliation"])}</span>' if t.get("affiliation") else ""
     abstract = ""
     if t.get("abstract"):
+        # Shown in full for upcoming talks; the script in index.html collapses it for past talks.
         abstract = f"""
-        <details>
-          <summary>Abstract</summary>
-          <p>{e(t["abstract"])}</p>
-        </details>"""
+        <div class="talk-abstract">
+          <p><span class="abstract-label">Abstract.</span> {e(t["abstract"])}</p>
+        </div>"""
     return f"""      <article class="talk" id="{e(t['id'])}" data-end="{t['end_dt'].isoformat()}">
         <p class="talk-date">{e(date)} · <span class="talk-time">{e(times)}</span></p>
-        <h3 class="talk-title">{e(t['title'])}</h3>
+        <h3 class="talk-title"><a href="#{e(t['id'])}" title="Link to this talk">{e(t['title'])}</a></h3>
         <p class="talk-speaker">{speaker}{affil}</p>{abstract}
         <p class="add-to-cal">Add to calendar:
           <a href="calendar/{e(t['id'])}.ics" download>Apple / iCal (.ics)</a>

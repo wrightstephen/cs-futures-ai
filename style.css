@@ -223,3 +223,17 @@ details summary { cursor: pointer; color: var(--link-hover); }
   border-left: 4px solid var(--uw-red);
 }
 .talk-speaker a { color: var(--link-hover); }
+
+/* Abstracts: visible for upcoming talks, collapsible (details) for past talks */
+.talk-title a { color: inherit; text-decoration: none; }
+.talk-title a:hover { text-decoration: underline; }
+.talk { scroll-margin-top: 16px; }
+.talk-abstract {
+  margin: 4px 0 8px;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #3d3d3d;
+}
+.talk-abstract p { margin: 0; }
+.abstract-label { font-weight: 600; color: var(--text); }
+details.talk-abstract summary { margin-bottom: 4px; font-size: 15px; }
